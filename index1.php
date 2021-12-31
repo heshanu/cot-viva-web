@@ -55,12 +55,7 @@
                                                     <li><a href="#">disney world</a></li>
                                                     <li><a href="#">candyland</a></li>
                                                     <li><a href="#">uitra</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">ultra mimai</a></li>
-                                                            <li><a href="#">ultra sri lanka</a></li>
-                                                            <li><a href="#">ultra aus</a></li>
-                                                            <li><a href="#">utra dubai</a></li>
-                                                        </ul>
+                                                        
                                                     </li>                                                    
                                                 </ul>
                                             </li>
@@ -73,13 +68,11 @@
 
                                 <div class="login-register-cart-button d-flex align-items-center">
                    
-                                    <div class="login-register-btn mr-50">
-                                        <a href="login.php" id="loginBtn">Login / Register</a>
-                                    </div>
+                                  
 
                                   
                                     <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                
                                     </div>
                                 </div>
                             </div>                        
@@ -100,8 +93,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h6 data-animation="fadeInUp" data-delay="100ms">Everything You Know</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Beyond Time And Sky <span>Beyond Time</span></h2>
+            
                                 <a data-animation="fadeInUp" data-delay="500ms" href="https://youtube.com/tommorowland" class="btn oneMusic-btn mt-50" target="_blank">Surf Now <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -121,7 +113,7 @@
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
                                 <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms"> Music Mania <span>MISTAKEN</span></h2>
+                              
                                 <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50">Surf <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -239,8 +231,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading style-2">
-                        <p>See what’s new</p>
-                        <h2>Buy What’s New</h2>
+                  
                     </div>
                 </div>
             </div>
@@ -495,7 +486,7 @@
                                 <p>01. Main Hit Song-<em>bailemos</em></p>
                             </div>
                             <audio preload="auto" controls>
-                                <source src="audio/1.MP3">
+                                <source src="audio/2.mp3">
                             </audio>
                         </div><br>
                         <div class="song-play-area">
@@ -832,7 +823,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
-                                    <button class="btn oneMusic-btn mt-30" name="submit1" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                    <button class="btn oneMusic-btn mt-30" name="submit1" type="submit">Send</i></button>
                                 </div>
                             </div>
 
@@ -842,7 +833,7 @@ include ("./connection.php");
 if(isset($_POST['submit1'])){
     if( empty($_POST['name1']) || empty($_POST['email1']) || empty($_POST['subject1']) || empty($_POST['message1'])   ){
         echo "<h2>please fill all blanks<h2>";
-        echo "hhhh";
+       // echo "hhhh";
     }
 
     else{
@@ -860,10 +851,10 @@ if(isset($_POST['submit1'])){
         if($result){
            
                 //header('Location:index1.php');
-                echo "Sucess";
+                echo "<script>alert('Sucessful')</script>";
             }
         else{
-            echo "<h2>Cannot Send your feedback!</h2>";
+            echo "<script>alert('Faild to Feedback')</script>";
 
         }    
               

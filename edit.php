@@ -119,7 +119,7 @@ session_start()
 
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">new username</label>
-                                    <input name="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<?php echo $_SESSION['username'] ?>">
+                                    <input name="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     
                                 </div>   
 
@@ -153,7 +153,8 @@ session_start()
 
         $r=mysqli_query($con,$sq);
         if($r){
-            echo "sucessfully updated";          
+           // echo "sucessfully updated"; 
+            header("Location:profile.php");         
         // header("location:profile.php");
         }
         else{

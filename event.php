@@ -51,23 +51,6 @@
                                             <li><a href="contact.html">Contact</a></li>
                                             <li><a href="elements.html">Elements</a></li>
                                             <li><a href="login.html">Login</a></li>
-                                            <li><a href="#">Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                </ul>
-                                            </li>
                                         </ul>
                                     </li>
                                     <li><a href="event.html">Events</a></li>
@@ -235,7 +218,7 @@
                         <div class="newsletter-form">
                             <form action="#">
                                 <input type="search" name="search" id="newsletterSearch" placeholder="E-mail">
-                                <button type="submit" class="btn oneMusic-btn">Subscribe <i class="fa fa-angle-double-right"></i></button>
+                                <button type="submit" class="btn oneMusic-btn">Subscribe</i></button>
                             </form>
                         </div>
                     </div>
@@ -299,26 +282,26 @@
                             <div class="row">
                                 <div class="col-md-6 col-lg-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                        <input type="text" class="form-control" id="name1" placeholder="Name" name="name1">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                        <input type="email" class="form-control" id="email" name="email1" placeholder="E-mail">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" name="subject1" class="form-control" id="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <textarea name="message1"  class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                    <button class="btn oneMusic-btn mt-30" type="submit" name="submit1">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -360,3 +343,41 @@
 </body>
 
 </html>
+
+
+
+                <?php 
+include ("./connection.php");
+
+if(isset($_POST['submit1'])){
+    if( empty($_POST['name1']) || empty($_POST['email1']) || empty($_POST['subject1']) || empty($_POST['message1'])   ){
+        echo "<h2>please fill all blanks<h2>";
+       // echo "hhhh";
+    }
+
+    else{
+
+        $name1=$_POST['name1'];
+        $email1=$_POST['email1'];
+        $subject1=$_POST['subject1'];
+        $message1=$_POST['message1'];
+
+
+        $q="insert into comments(name1,email1,subject1,message1) VALUES ('$name1','$email1','$subject1','$message1') ";
+        $result=mysqli_query($con,$q);
+     
+     
+        if($result){
+           
+                //header('Location:index1.php');
+                echo "Sucess";
+            }
+        else{
+            echo "<h2>Cannot Send your feedback!</h2>";
+
+        }    
+              
+        
+    }
+}
+?>

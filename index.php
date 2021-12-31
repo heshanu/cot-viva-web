@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-    <title>test site</title>
+    <title>Music site</title>
     <link rel="icon" href="img/core-img/favicon.ico">    
     <link rel="stylesheet" href="style.css">
 </head>
@@ -70,6 +70,7 @@
                                     <li><a href="blog.php">News</a></li>
                                     <li><a href="contact.php">Contact</a></li>
                                     <li><a href="comments.php">Feedback</a></li>
+                                    <li><a href="profile.php">Profile</a></li>
                                 </ul>
 
                                 <div class="login-register-cart-button d-flex align-items-center">
@@ -80,7 +81,7 @@
 
                                   
                                     <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                       
                                     </div>
                                 </div>
                             </div>                        
@@ -95,15 +96,15 @@
 
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
           
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/e8.jpg);"></div>
                
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
                                 <h6 data-animation="fadeInUp" data-delay="100ms">EveryThing You Need to know!</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Beyond The Sky!</h2>
-                                <a data-animation="fadeInUp" data-delay="500ms" href="https://youtube.com/tommorowland" class="btn oneMusic-btn mt-50" target="_blank">Discover <i class="fa fa-angle-double-right"></i></a>
+                            
+                                <a data-animation="fadeInUp" data-delay="500ms" href="https://youtube.com/tommorowland" class="btn oneMusic-btn mt-50" target="_blank">Surf Now</i></a>
                             </div>
                         </div>
                     </div>
@@ -112,18 +113,18 @@
 
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
              
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/e8.jpg);"></div>
                 <div class="slide-img bg-img" style="background-image: url(img/core-img/2.jpg);"></div>
-                <div class="slide-img bg-img" style="background-image: url(img/core-img/2.jpg);"></div>
-                <div class="slide-img bg-img" style="background-image: url(img/core-img/2.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/core-img/e2.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/e6.jpg);"></div>
                 <div class="container">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
                                 <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms"> Music Mania <span>MISTAKEN</span></h2>
-                                <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                                <h2 data-animation="fadeInUp" data-delay="300ms"> Music Festivals arround the World<span>MISTAKEN</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50"></a>
                             </div>
                         </div>
                     </div>
@@ -829,11 +830,11 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group wow fadeInUp" data-wow-delay="400ms">
-                                        <textarea name="message" name="message1" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <textarea name="message1" class="form-control" id="message1" cols="30" rows="10" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
-                                    <button class="btn oneMusic-btn mt-30" name="submit1" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                    <button class="btn oneMusic-btn mt-30" name="submit1" type="submit">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -880,3 +881,33 @@
 </body>
 
 </html>
+
+
+<?php   
+    include ('connection.php');
+//   echo"hi";
+    if(isset($_POST['submit1'])){
+    
+      
+            $name1=$_POST['name1'];
+            $email1=$_POST['email1'];
+            $subject1=$_POST['subject1'];
+            $message1=$_POST['message1'];
+
+          //  $s="select username from music where username='".$username."'  ";
+          //  $q=mysqli_query($con,$s);
+ 
+          
+            $sq="INSERT INTO comments(name1,email1,subject1,message1) VALUES ('$name1','$email1','$subject1','$message1')";
+            $result1=mysqli_query($con,$sq);
+
+            if($result1){
+                echo "<h1>sucessfull</h1>";
+            }
+            else{
+                echo "<h1> flaid to connect!</h1> ";
+            }
+            
+        }            
+       
+?>

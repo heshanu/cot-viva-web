@@ -83,9 +83,7 @@
 
                                 <div class="login-register-cart-button d-flex align-items-center">
                    
-                                    <div class="login-register-btn mr-50">
-                                        <a href="login.php" id="loginBtn">Login / Register</a>
-                                    </div>
+                                    
 
                                   
                                     <div class="cart-btn">

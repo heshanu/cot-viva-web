@@ -39,6 +39,7 @@ if(isset($_POST['submit'])){
         }
 
         else{
+            echo "<script>alert('your are not a member please register!')</script>";
             header('Location:login.php');
         }
     }
