@@ -93,9 +93,7 @@ session_start()
                                     </div>
 
                                   
-                                    <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
-                                    </div>
+                                    
                                 </div>
                             </div>                        
                         </div>
@@ -113,9 +111,9 @@ session_start()
           
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
                
-                     <div class="login-form" style="background-color: yellow;border-radius: 20px">
+                     <div class="login-form" style="background-color: gray;width: 500px">
 
-                            <form action="#" method="POST" class="container">
+                            <form action="#" method="POST" class="login-form">
 
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">new username</label>
@@ -153,8 +151,8 @@ session_start()
 
         $r=mysqli_query($con,$sq);
         if($r){
-           // echo "sucessfully updated"; 
-            header("Location:profile.php");         
+            echo "sucessfully updated"; 
+            //header("Location:profile.php");         
         // header("location:profile.php");
         }
         else{
@@ -196,7 +194,7 @@ mysqli_close($con);
     <script src="js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
+    <!-- All Plugins js --> 
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>

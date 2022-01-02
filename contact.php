@@ -55,26 +55,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="albums-store.html">Albums</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="albums-store.html">Albums</a></li>
-                                            <li><a href="event.html">Events</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            
-        
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="event.html">Events</a></li>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="albums-store.php">Albums</a></li>
+                                                       
+                                    <li><a href="blog.php">News</a></li>
+           
                                 </ul>
 
                                 <!-- Login/Register & Cart Button -->
@@ -83,9 +68,7 @@
                                     
 
                                     <!-- Cart Button -->
-                                    <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
-                                    </div>
+                                   
                                 </div>
                             </div>
                             <!-- Nav End -->
@@ -132,7 +115,7 @@
                             <div class="icon mr-30">
                                 <span class="icon-smartphone"></span>
                             </div>
-                            <p>+945163610</p>
+                            <p>+94775163610</p>
                         </div>
 
                         <!-- Single Contact Info -->
@@ -144,14 +127,10 @@
                         </div>
 
                         <!-- Contact Social Info -->
-                        <div class="contact-social-info mt-50">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
+                       <div>
+                        <h2 style="margin-left: 450px;">Music <br>Design&nbsp;</h2>
+                           <img src="music.jpg" style="margin-left: 450px">
+                       </div>
 
                     </div>
                 </div>
@@ -210,9 +189,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
 
-    <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
@@ -223,29 +200,24 @@
                 <div class="col-12 col-md-6">
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Albums</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- ##### Footer Area Start ##### -->
 
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
+
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
+
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
+
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
+
     <script src="js/active.js"></script>
 </body>
 

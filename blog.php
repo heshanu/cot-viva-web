@@ -41,34 +41,7 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="albums-store.html">Albums</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="albums-store.php">Albums</a></li>
-                                            <li><a href="event.php">Events</a></li>
-                                            <li><a href="blog.php">News</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
-                                            <li><a href="elements.php">Elements</a></li>
-                                            <li><a href="login.php">Login</a></li>
-                                            <li><a href="#">Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                    <li><a href="#">Even Dropdown</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                            <li><a href="#">Deeply Dropdown</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Even Dropdown</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                  
                                     <li><a href="event.php">Events</a></li>
                                     <li><a href="blog.php">News</a></li>
                                     <li><a href="contact.php">Contact</a></li>
@@ -80,9 +53,7 @@
                                         <a href="login.php" id="loginBtn">Login / Register</a>
                                     </div>
 
-                                    <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -267,9 +238,7 @@
             </div>
         </div>
     </div>
-    <!-- ##### Blog Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
     <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
         <div class="container">
             <div class="row">
@@ -317,9 +286,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
 
-    <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
@@ -331,29 +298,26 @@
                 <div class="col-12 col-md-6">
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Albums</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="albums-store.php">Albums</a></li>
+                            <li><a href="event.php">Events</a></li>
+                            <li><a href="news.php">News</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- ##### Footer Area Start ##### -->
 
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
+
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
+ 
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
+ 
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
+  
     <script src="js/active.js"></script>
 </body>
 

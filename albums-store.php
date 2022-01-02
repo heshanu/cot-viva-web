@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>One Music</title>
+    <title>Music</title>
 
 
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -55,33 +55,7 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="albums-store.php">Albums</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="albums-store.php">Albums</a></li>
-                                            <li><a href="event.php">Events</a></li>
-                                            <li><a href="blog.php">News</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
-                                            <li><a href="elements.php">Elements</a></li>
-                                            <li><a href="login.php">Login</a></li>
-                                            <li><a href="#">edm</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">tommorowland</a></li>
-                                                    <li><a href="#">candyland</a></li>
-                                                    <li><a href="#">disney world</a></li>
-                                                    <li><a href="#">ultra</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">ultra miami</a></li>
-                                                            <li><a href="#">ultra sri lanak</a></li>
-                                                            <li><a href="#">ultra aus</a></li>
-                                                            <li><a href="#">ultra dubai</a></li>
-                                                           
-                                                        </ul>
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                   
                                     </li>
                                     <li><a href="event.php">Events</a></li>
                                     <li><a href="blog.php">News</a></li>
@@ -96,9 +70,7 @@
                                     </div>
 
                                     <!-- Cart Button -->
-                                    <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
-                                    </div>
+                                   
                                 </div>
                             </div>
                             <!-- Nav End -->
@@ -319,9 +291,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Album Catagory Area End ##### -->
 
-    <!-- ##### Buy Now Area Start ##### -->
     <div class="oneMusic-buy-now-area mb-100">
         <div class="container">
             <div class="row">
@@ -559,29 +529,26 @@
                 <div class="col-12 col-md-6">
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Albums</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="albums-store.php">albums</a></li>
+                            <li><a href="event.php">Events</a></li>
+                            <li><a href="news.php">News</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- ##### Footer Area Start ##### -->
 
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
+
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
+
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
+
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
+
     <script src="js/active.js"></script>
 </body>
 

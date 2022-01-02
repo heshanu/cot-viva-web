@@ -823,7 +823,7 @@
                                         <input type="email" class="form-control" id="email1" placeholder="E-mail" name=email1>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                 <div class="col-lg-4">
                                     <div class="form-group wow fadeInUp" data-wow-delay="300ms">
                                         <input type="text" name="subject1" class="form-control" id="subject1" placeholder="Subject">
                                     </div>

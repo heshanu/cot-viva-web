@@ -19,7 +19,7 @@ $_SESSION['type1']=$_POST['type1'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
-    <title>One Music - Modern Music</title>
+    <title> Music</title>
 
     <link rel="icon" href="img/core-img/favicon.ico">
 
@@ -203,9 +203,9 @@ $_SESSION['type1']=$_POST['type1'];
 
 
     </section>
-    <!-- ##### Login Area End ##### -->
+   
     <h3 style="text-align: center;">already a member <a href="login.php">click here</a></h3>
-    <!-- ##### Footer Area Start ##### -->
+
     <footer class="footer-area">
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
@@ -223,13 +223,12 @@ $_SESSION['type1']=$_POST['type1'];
     </footer>
    
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
+
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
+
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
+
     <script src="js/active.js"></script>
 </body>
 </html>

@@ -40,27 +40,7 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="albums-store.php">Albums</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="albums-store.php">Albums</a></li>
-                                            <li><a href="event.php">Events</a></li>
-                                            <li><a href="blog.php">News</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
-                                            <li><a href="elements.php">Elements</a></li>
-                                            <li><a href="login.php">Login</a></li>
-                                            <li><a href="#">edm festivals</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">tommorowland</a></li>
-                                                    <li><a href="#">disney world</a></li>
-                                                    <li><a href="#">candyland</a></li>
-                                                    <li><a href="#">uitra</a>
-                                                        
-                                                    </li>                                                    
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                 
                                     <li><a href="event.php">Events</a></li>
                                     <li><a href="blog.php">News</a></li>
                                     <li><a href="contact.php">Contact</a></li>
@@ -103,7 +83,7 @@
 
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
              
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
                 <div class="slide-img bg-img" style="background-image: url(img/core-img/2.jpg);"></div>
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/e7.jpg);"></div>
                 <div class="slide-img bg-img" style="background-image: url(img/core-img/2.jpg);"></div>
@@ -114,7 +94,7 @@
                             <div class="hero-slides-content text-center">
                                 <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
                               
-                                <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50">Surf <i class="fa fa-angle-double-right"></i></a>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="https://www.youtube.com/watch?v=_0KMSc7Jz_Y&t=1055s" class="btn oneMusic-btn mt-50">Surf </a>
                             </div>
                         </div>
                     </div>
@@ -477,7 +457,7 @@
                                 <p>01. Main Hit Song-<em>bailemos</em></p>
                             </div>
                             <audio preload="auto" controls>
-                                <source src="audio/1.MP3">
+                                <source src="audio/1.MP3"download>
                             </audio><button></button>
                         </div>
                         <br>
@@ -486,7 +466,7 @@
                                 <p>01. Main Hit Song-<em>bailemos</em></p>
                             </div>
                             <audio preload="auto" controls>
-                                <source src="audio/2.mp3">
+                                <source src="audio/2.mp3" download>
                             </audio>
                         </div><br>
                         <div class="song-play-area">
@@ -505,14 +485,20 @@
                                 <source src="audio/1.MP3">
                             </audio>
                         </div>
+                        <div class="song-play-area">
+                            <div class="song-name">
+                                <p>03. Main Hit Song-<em>bailemos</em></p>
+                            </div>
+                            <audio preload="auto" controls>
+                                <source src="audio/1.MP3">
+                            </audio>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ##### Featured Artist Area End ##### -->
 
-    <!-- ##### Miscellaneous Area Start ##### -->
     <section class="miscellaneous-area section-padding-100-0">
         <div class="container">
             <div class="row">
@@ -782,9 +768,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Miscellaneous Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
     <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
         <div class="container">
             <div class="row">
@@ -869,9 +853,7 @@ if(isset($_POST['submit1'])){
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
+  
     <footer class="footer-area">
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
@@ -886,18 +868,15 @@ if(isset($_POST['submit1'])){
             </div>
         </div>
     </footer>
-    <!-- ##### Footer Area Start ##### -->
-
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
+   
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
+
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
+
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
+
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
+
     <script src="js/active.js"></script>
 </body>
 

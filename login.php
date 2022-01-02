@@ -121,7 +121,7 @@ if(isset($_POST['submit'])){
                                     <li><a href="event.php">Events</a></li>
                                     <li><a href="blog.php">News</a></li>
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="profile.php">Contact</a></li>
+                          
                                 </ul>
 
                     
@@ -133,9 +133,6 @@ if(isset($_POST['submit'])){
 
                                  
                                  
-                                    <div class="cart-btn">
-                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
-                                    </div>
                                 </div>
                             </div>
                           

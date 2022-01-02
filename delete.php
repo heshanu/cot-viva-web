@@ -28,17 +28,17 @@
     <link rel="stylesheet" href="style.css">
     <style type="text/css">
         td:active{
-            background-color: red
+            background-color: gray;
         }
         td:hover{
-            background-color: red
+            background-color: gray;
         }
         th{
-            background-color: orange;
+            background-color: gray;
         }
     </style>
 </head>
-<body style="background-image: url(img/core-img/2.jpg);background-repeat: no-repeat;background-size: cover;"> 
+<body style="background-color: gray"> 
  
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
@@ -128,19 +128,19 @@
         </div>
     </div> 
    
-   
+   <br><br>
 <br>
-        <form method="POST" style="margin-left: 100px;width: 500px;margin-top: 50px;margin-bottom: 100px" >
-                <h1 style="background-color: yellow">Delete User Details</h1>
+        <form method="POST" style="margin-left: 100px;width: 500px;margin-top: 50px;margin-bottom: 100px" class="login-form">
+                <h1 style="background-color: gray">Delete User Details</h1>
                 <label   for="exampleInputPassword1">email here</label>
-                <input name="email"  type="email" class="form-control" id="exampleInputPassword1" placeholder="email here">
+                <input name="email"  type="email" class="form-control" id="exampleInputPassword1" placeholder="email here"><br>
                 <button name="delete"  style="border-radius: 20px;size: 100px;font-size: 25px;border-top: 50px">delete</button>
     </form>
-
+<br><br>
     <form method="POST"  style="margin-left: 100px;width: 500px" >
-        <h1 style="background-color:yellow">User FeedBack</h1>
+        <h1 style="background-color:gray">User FeedBack</h1>
                 <label   for="exampleInputPassword1">email here</label>
-                <input name="email1"  type="email" class="form-control" id="exampleInputPassword1" placeholder="email here" style="font-size: 40px">
+                <input name="email1"  type="email" class="form-control" id="exampleInputPassword1" placeholder="email here" style="font-size: 40px"><br>
                 <button name="delete1" style="border-radius: 20px;size: 100px;font-size: 25px;border-top: 100px">delete</button>
     </form>
 <br>
@@ -150,7 +150,7 @@
 <div style="width: 1000px">
        
         <div  style="width: 500px">
-                 <table class="table table-bordered" style="background-color: yellow;width: 500px;margin-left:500px"  border="20" >
+                 <table class="table table-bordered" style="background-color: gray;width: 500px;margin-left:500px"  border="20" >
                     <h2 style="margin-left: 200px">User Details Table</h2>
                             <tr>
                                 <th> name </th>
@@ -186,15 +186,13 @@
                                 
                                    
                                 ?>
-    
-
                             
         </table>           
     </div>
 
 
     <div  style="width: 500px" align="right">
-                 <table  class="table table-bordered" style="background-color: yellow;width: 450px;margin-left:500px" border="20"  >
+                 <table  class="table table-bordered" style="background-color: gray;width: 450px;margin-left:500px" border="20"  >
                     <h2 style="margin-left:   200px">User Feedback Table</h2>
                             <tr>
                                 <th> name </th>
