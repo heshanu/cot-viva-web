@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>One Music - Modern Music </title>
+    <title>Modern Music </title>
 
     <link rel="icon" href="img/core-img/favicon.ico">
 
@@ -129,7 +129,7 @@
                         <!-- Contact Social Info -->
                        <div>
                         <h2 style="margin-left: 450px;">Music <br>Design&nbsp;</h2>
-                           <img src="music.jpg" style="margin-left: 450px">
+                           <img src="page.png" style="margin-left: 450px">
                        </div>
 
                     </div>
@@ -139,9 +139,8 @@
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
-
-    <!-- ##### Contact Area Start ##### -->
+   
+   
     <section class="contact-area section-padding-0-100">
         <div class="container">
             <div class="row">

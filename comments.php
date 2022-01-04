@@ -17,7 +17,7 @@
             background-color: red
         }
         th{
-            background-color: orange;
+            background-color: gray;
         }
     </style>
 </head>

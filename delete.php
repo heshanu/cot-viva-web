@@ -67,32 +67,7 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="albums-store.php">Albums</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="albums-store.php">Albums</a></li>
-                                            <li><a href="event.php">Events</a></li>
-                                            <li><a href="blog.php">News</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
-                                            <li><a href="elements.php">Elements</a></li>
-                                            <li><a href="login.php">Login</a></li>
-                                            <li><a href="#">edm festivals</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">tommorowland</a></li>
-                                                    <li><a href="#">disney world</a></li>
-                                                    <li><a href="#">candyland</a></li>
-                                                    <li><a href="#">uitra</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">ultra mimai</a></li>
-                                                            <li><a href="#">ultra sri lanka</a></li>
-                                                            <li><a href="#">ultra aus</a></li>
-                                                            <li><a href="#">utra dubai</a></li>
-                                                        </ul>
-                                                    </li>                                                    
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                   
                                     <li><a href="event.php">Events</a></li>
                                     <li><a href="blog.php">News</a></li>
                                     <li><a href="contact.php">Contact</a></li>
