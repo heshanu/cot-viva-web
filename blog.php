@@ -126,7 +126,15 @@
                                 <p class="tags"><a href="#">2 Comments</a></p>
                             </div>
                             <!-- Post Excerpt -->
-                            <p>Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis. Pellentesque sit amet velit a libero viverra porta non eu justo. Vivamus mollis metus sem, ac sodales dui lobortis.</p>
+                            <p>Music fans have never had so much choice when it comes to keeping up with the latest music news and releases. But, as always with so much choice, it’s difficult to know which sites are worth reading, and which aren’t.
+
+That’s why we’ve compiled this list of the best music blogs, online music magazines and music discovery sites.
+
+Whether you’re into Indie Rock, Pop, EDM, or Hip Hop you can find your new favourite music blog here.
+
+We’ve selected a variety of blogs, from industry leaders to smaller more niche publications, and we’ve done our best to group them by genre to make it easier to find what you’re looking for.
+
+</p>
                         </div>
                     </div>
 
@@ -258,26 +266,26 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                        <input type="text" name="name1" class="form-control" id="name" placeholder="Name">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                        <input type="email" name="email1" class="form-control" id="email" placeholder="E-mail">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" name="subject1" class="form-control" id="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                        <textarea name="message1" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                    <button class="btn oneMusic-btn mt-30" type="submit"name="subject1">Send <i class="fa fa-angle-double-right"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -322,3 +330,33 @@
 </body>
 
 </html>
+
+
+<?php   
+    include ('connection.php');
+//   echo"hi";
+    if(isset($_POST['submit1'])){
+    
+      
+            $name1=$_POST['name1'];
+            $email1=$_POST['email1'];
+            $subject1=$_POST['subject1'];
+            $message1=$_POST['message1'];
+
+          //  $s="select username from music where username='".$username."'  ";
+          //  $q=mysqli_query($con,$s);
+ 
+          
+            $sq="INSERT INTO comments(name1,email1,subject1,message1) VALUES ('$name1','$email1','$subject1','$message1')";
+            $result1=mysqli_query($con,$sq);
+
+            if($result1){
+                echo "<h1>sucessfull</h1>";
+            }
+            else{
+                echo "<h1> flaid to connect!</h1> ";
+            }
+            
+        }            
+       
+?>

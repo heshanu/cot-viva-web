@@ -63,13 +63,7 @@
                                 </ul>
 
                                 <!-- Login/Register & Cart Button -->
-                                <div class="login-register-cart-button d-flex align-items-center">
-                                    <!-- Login/Register -->
-                                    
-
-                                    <!-- Cart Button -->
-                                   
-                                </div>
+                              
                             </div>
                             <!-- Nav End -->
 
@@ -79,18 +73,14 @@
             </div>
         </div>
     </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breadcumb Area Start ##### -->
+ 
     <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb.jpg);">
         <div class="bradcumbContent">
             <p>See what’s new</p>
             <h2>Contact</h2>
         </div>
     </section>
-    <!-- ##### Breadcumb Area End ##### -->
-
-    <!-- ##### Contact Area Start ##### -->
+ 
     <section class="contact-area section-padding-100-0">
         <div class="container">
             <div class="row">

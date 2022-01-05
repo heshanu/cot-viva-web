@@ -79,10 +79,7 @@
                                         <a href="login.php" id="loginBtn">Login / Register</a>
                                     </div>
 
-                                  
-                                    <div class="cart-btn">
-                                       
-                                    </div>
+                                 
                                 </div>
                             </div>                        
                         </div>

@@ -56,13 +56,7 @@
                                     <li><a href="profile.php">profile</a></li>
                                 </ul>
 
-                                <div class="login-register-cart-button d-flex align-items-center">
-                   
-                                    
-
-                                  
-                                   
-                                </div>
+                               
                             </div>                        
                         </div>
                     </nav>
